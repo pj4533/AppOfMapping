@@ -1,0 +1,15 @@
+crypts
+dungeon
+chambers
+ruins
+caverns
+cave
+tombs
+vaults
+cells
+offices
+barracks
+library
+temple
+oubliette
+warrens

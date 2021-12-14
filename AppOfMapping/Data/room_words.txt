@@ -1,0 +1,73 @@
+alcove
+antechamber
+anteroom
+armory
+atrium
+audience chamber
+aviary
+banquet room
+barracks
+bedchamber
+bestiary
+boudoir
+bunk room
+burial chamber
+camp
+cell
+chamber
+chantry
+chapel
+cistern
+classroom
+closet
+compartment
+conjuring room
+court
+crypt
+den
+dining room
+divination room
+dormitory
+dressing room
+eternal home
+gallery
+game room
+garden
+guardroom
+guest room
+hall
+hollow
+home
+hovel
+kennel
+kitchen
+laboratory
+latrine
+library
+lounge
+meditation chamber
+necropolis
+nursery
+observatory
+office
+pantry
+prison
+reception room
+refectory
+resting place
+robing room
+room
+salon
+shrine
+sitting room
+smithy
+stable
+storage room
+study
+temple
+throne room
+tomb
+vault
+vestibule
+waiting room
+workshop

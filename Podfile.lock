@@ -1,0 +1,24 @@
+PODS:
+  - FontAwesome.swift (1.9.1)
+  - SVProgressHUD (2.2.5)
+  - XMLCoder (0.13.1)
+
+DEPENDENCIES:
+  - FontAwesome.swift
+  - SVProgressHUD
+  - XMLCoder
+
+SPEC REPOS:
+  trunk:
+    - FontAwesome.swift
+    - SVProgressHUD
+    - XMLCoder
+
+SPEC CHECKSUMS:
+  FontAwesome.swift: 6b52cb7be66eacd28cbfaa0ca7ffd0de4a186a1d
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  XMLCoder: bd962586bc6777a9e6a17bc84d97a3c5413a9495
+
+PODFILE CHECKSUM: dea481e617ac0099c07e69f6625fdf395aba57c8
+
+COCOAPODS: 1.11.2

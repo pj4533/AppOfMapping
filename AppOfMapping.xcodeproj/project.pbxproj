@@ -16,6 +16,85 @@
 		0A690E452768FC9F00078AC4 /* AppOfMappingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A690E442768FC9F00078AC4 /* AppOfMappingTests.swift */; };
 		0A690E4F2768FC9F00078AC4 /* AppOfMappingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A690E4E2768FC9F00078AC4 /* AppOfMappingUITests.swift */; };
 		0A690E512768FC9F00078AC4 /* AppOfMappingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A690E502768FC9F00078AC4 /* AppOfMappingUITestsLaunchTests.swift */; };
+		0A690EBC2768FDBE00078AC4 /* LabelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A690E5E2768FDBD00078AC4 /* LabelTableViewCell.swift */; };
+		0A690EBD2768FDBE00078AC4 /* DoubleButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A690E5F2768FDBD00078AC4 /* DoubleButtonCell.swift */; };
+		0A690EBE2768FDBE00078AC4 /* StatsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A690E602768FDBD00078AC4 /* StatsTableViewCell.swift */; };
+		0A690EBF2768FDBE00078AC4 /* TextViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A690E612768FDBD00078AC4 /* TextViewTableViewCell.swift */; };
+		0A690EC02768FDBE00078AC4 /* PickerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A690E622768FDBD00078AC4 /* PickerTableViewCell.swift */; };
+		0A690EC12768FDBE00078AC4 /* TaperedLineTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A690E632768FDBD00078AC4 /* TaperedLineTableViewCell.swift */; };
+		0A690EC22768FDBE00078AC4 /* TextFieldTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A690E642768FDBD00078AC4 /* TextFieldTableViewCell.swift */; };
+		0A690EC32768FDBE00078AC4 /* ButtonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A690E652768FDBD00078AC4 /* ButtonTableViewCell.swift */; };
+		0A690EC42768FDBE00078AC4 /* SwitchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A690E662768FDBD00078AC4 /* SwitchTableViewCell.swift */; };
+		0A690EC52768FDBE00078AC4 /* SRDMonsterDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A690E682768FDBD00078AC4 /* SRDMonsterDataSource.swift */; };
+		0A690EC62768FDBE00078AC4 /* TrapDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A690E692768FDBD00078AC4 /* TrapDataSource.swift */; };
+		0A690EC72768FDBE00078AC4 /* EncounterDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A690E6A2768FDBD00078AC4 /* EncounterDataSource.swift */; };
+		0A690EC82768FDBE00078AC4 /* PartyDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A690E6B2768FDBD00078AC4 /* PartyDataSource.swift */; };
+		0A690EC92768FDBE00078AC4 /* RoomDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A690E6C2768FDBD00078AC4 /* RoomDataSource.swift */; };
+		0A690ECA2768FDBE00078AC4 /* DNDBeyondDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A690E6D2768FDBD00078AC4 /* DNDBeyondDataSource.swift */; };
+		0A690ECB2768FDBE00078AC4 /* MonsterDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A690E6E2768FDBD00078AC4 /* MonsterDataSource.swift */; };
+		0A690ECC2768FDBE00078AC4 /* SRDSpellDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A690E6F2768FDBD00078AC4 /* SRDSpellDataSource.swift */; };
+		0A690ECD2768FDBE00078AC4 /* GM5MonsterDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A690E702768FDBD00078AC4 /* GM5MonsterDataSource.swift */; };
+		0A690ECE2768FDBE00078AC4 /* room_words.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0A690E722768FDBD00078AC4 /* room_words.txt */; };
+		0A690ED02768FDBE00078AC4 /* 5e_srd_spells.json in Resources */ = {isa = PBXBuildFile; fileRef = 0A690E742768FDBD00078AC4 /* 5e_srd_spells.json */; };
+		0A690ED12768FDBE00078AC4 /* dungeon_words.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0A690E752768FDBD00078AC4 /* dungeon_words.txt */; };
+		0A690ED22768FDBE00078AC4 /* kfc_master_monster_list.json in Resources */ = {isa = PBXBuildFile; fileRef = 0A690E762768FDBD00078AC4 /* kfc_master_monster_list.json */; };
+		0A690ED32768FDBE00078AC4 /* noun_words.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0A690E772768FDBD00078AC4 /* noun_words.txt */; };
+		0A690ED42768FDBE00078AC4 /* adjective_words.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0A690E782768FDBD00078AC4 /* adjective_words.txt */; };
+		0A690ED52768FDBE00078AC4 /* 5e_srd_monsters.json in Resources */ = {isa = PBXBuildFile; fileRef = 0A690E792768FDBD00078AC4 /* 5e_srd_monsters.json */; };
+		0A690ED62768FDBE00078AC4 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0A690E7B2768FDBD00078AC4 /* Poppins-Regular.ttf */; };
+		0A690ED72768FDBE00078AC4 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0A690E7C2768FDBD00078AC4 /* Poppins-Bold.ttf */; };
+		0A690ED82768FDBE00078AC4 /* Trap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A690E7E2768FDBD00078AC4 /* Trap.swift */; };
+		0A690ED92768FDBE00078AC4 /* PlayerCharacter+XPThreshhold.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A690E802768FDBD00078AC4 /* PlayerCharacter+XPThreshhold.swift */; };
+		0A690EDA2768FDBE00078AC4 /* PlayerCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A690E812768FDBD00078AC4 /* PlayerCharacter.swift */; };
+		0A690EDB2768FDBE00078AC4 /* PlayerCharacter+AdventuringDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A690E822768FDBD00078AC4 /* PlayerCharacter+AdventuringDay.swift */; };
+		0A690EDC2768FDBE00078AC4 /* Class.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A690E832768FDBD00078AC4 /* Class.swift */; };
+		0A690EDD2768FDBE00078AC4 /* ClassDefinition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A690E842768FDBD00078AC4 /* ClassDefinition.swift */; };
+		0A690EDE2768FDBE00078AC4 /* Party.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A690E852768FDBD00078AC4 /* Party.swift */; };
+		0A690EDF2768FDBE00078AC4 /* MapGeometryObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A690E872768FDBD00078AC4 /* MapGeometryObject.swift */; };
+		0A690EE02768FDBE00078AC4 /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A690E882768FDBD00078AC4 /* Room.swift */; };
+		0A690EE12768FDBE00078AC4 /* DungeonMap+Description.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A690E892768FDBD00078AC4 /* DungeonMap+Description.swift */; };
+		0A690EE22768FDBE00078AC4 /* DungeonMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A690E8A2768FDBD00078AC4 /* DungeonMap.swift */; };
+		0A690EE32768FDBE00078AC4 /* Leaf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A690E8B2768FDBD00078AC4 /* Leaf.swift */; };
+		0A690EE42768FDBE00078AC4 /* Door.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A690E8C2768FDBD00078AC4 /* Door.swift */; };
+		0A690EE52768FDBE00078AC4 /* Encounter+AdjustedXP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A690E8E2768FDBD00078AC4 /* Encounter+AdjustedXP.swift */; };
+		0A690EE62768FDBE00078AC4 /* Encounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A690E8F2768FDBD00078AC4 /* Encounter.swift */; };
+		0A690EE72768FDBE00078AC4 /* EncounterEnemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A690E902768FDBD00078AC4 /* EncounterEnemy.swift */; };
+		0A690EE82768FDBE00078AC4 /* Treasure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A690E922768FDBD00078AC4 /* Treasure.swift */; };
+		0A690EE92768FDBE00078AC4 /* Treasure+ArtObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A690E932768FDBD00078AC4 /* Treasure+ArtObjects.swift */; };
+		0A690EEA2768FDBE00078AC4 /* Treasure+MagicItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A690E942768FDBD00078AC4 /* Treasure+MagicItems.swift */; };
+		0A690EEB2768FDBE00078AC4 /* Spell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A690E952768FDBD00078AC4 /* Spell.swift */; };
+		0A690EEC2768FDBE00078AC4 /* Monster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A690E972768FDBD00078AC4 /* Monster.swift */; };
+		0A690EED2768FDBE00078AC4 /* MonsterGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A690E982768FDBD00078AC4 /* MonsterGroup.swift */; };
+		0A690EEE2768FDBE00078AC4 /* SpecialAbility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A690E992768FDBD00078AC4 /* SpecialAbility.swift */; };
+		0A690EEF2768FDBE00078AC4 /* Monster+ExperiencePoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A690E9A2768FDBD00078AC4 /* Monster+ExperiencePoints.swift */; };
+		0A690EF02768FDBE00078AC4 /* Monster+AbilityModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A690E9B2768FDBD00078AC4 /* Monster+AbilityModifier.swift */; };
+		0A690EF12768FDBE00078AC4 /* Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A690E9C2768FDBD00078AC4 /* Action.swift */; };
+		0A690EF22768FDBE00078AC4 /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A690E9E2768FDBD00078AC4 /* UIColor+Hex.swift */; };
+		0A690EF32768FDBE00078AC4 /* UIView+ScreenGrab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A690E9F2768FDBD00078AC4 /* UIView+ScreenGrab.swift */; };
+		0A690EF42768FDBE00078AC4 /* UIImage+ToFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A690EA02768FDBD00078AC4 /* UIImage+ToFile.swift */; };
+		0A690EF52768FDBE00078AC4 /* UIViewController+DetailPresent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A690EA12768FDBD00078AC4 /* UIViewController+DetailPresent.swift */; };
+		0A690EF62768FDBE00078AC4 /* CustomStringConvertible+Desc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A690EA22768FDBD00078AC4 /* CustomStringConvertible+Desc.swift */; };
+		0A690EF72768FDBE00078AC4 /* EnvironmentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A690EA42768FDBD00078AC4 /* EnvironmentsViewController.swift */; };
+		0A690EF82768FDBE00078AC4 /* RoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A690EA52768FDBD00078AC4 /* RoomViewController.swift */; };
+		0A690EF92768FDBE00078AC4 /* EditEnemyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A690EA62768FDBD00078AC4 /* EditEnemyViewController.swift */; };
+		0A690EFA2768FDBE00078AC4 /* StatBlockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A690EA72768FDBD00078AC4 /* StatBlockViewController.swift */; };
+		0A690EFB2768FDBE00078AC4 /* PDFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A690EA82768FDBD00078AC4 /* PDFViewController.swift */; };
+		0A690EFC2768FDBE00078AC4 /* AddEnemyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A690EA92768FDBD00078AC4 /* AddEnemyViewController.swift */; };
+		0A690EFD2768FDBE00078AC4 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A690EAA2768FDBD00078AC4 /* GameViewController.swift */; };
+		0A690EFE2768FDBE00078AC4 /* PlayerCharacterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A690EAB2768FDBD00078AC4 /* PlayerCharacterViewController.swift */; };
+		0A690EFF2768FDBE00078AC4 /* GroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A690EAC2768FDBD00078AC4 /* GroupViewController.swift */; };
+		0A690F002768FDBE00078AC4 /* PartyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A690EAD2768FDBD00078AC4 /* PartyViewController.swift */; };
+		0A690F012768FDBE00078AC4 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A690EAE2768FDBD00078AC4 /* WebViewController.swift */; };
+		0A690F022768FDBE00078AC4 /* CustomGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A690EAF2768FDBD00078AC4 /* CustomGroupViewController.swift */; };
+		0A690F032768FDBE00078AC4 /* MapInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A690EB02768FDBD00078AC4 /* MapInfoViewController.swift */; };
+		0A690F042768FDBE00078AC4 /* GroupsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A690EB12768FDBD00078AC4 /* GroupsViewController.swift */; };
+		0A690F052768FDBE00078AC4 /* EditStringViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A690EB22768FDBD00078AC4 /* EditStringViewController.swift */; };
+		0A690F062768FDBE00078AC4 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A690EB32768FDBD00078AC4 /* SettingsViewController.swift */; };
+		0A690F072768FDBE00078AC4 /* Roll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A690EB52768FDBE00078AC4 /* Roll.swift */; };
+		0A690F082768FDBE00078AC4 /* BSPDungeonNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A690EB72768FDBE00078AC4 /* BSPDungeonNode.swift */; };
+		0A690F092768FDBE00078AC4 /* Dungeon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A690EB82768FDBE00078AC4 /* Dungeon.swift */; };
+		0A690F0A2768FDBE00078AC4 /* DungeonTileSet.sks in Resources */ = {isa = PBXBuildFile; fileRef = 0A690EB92768FDBE00078AC4 /* DungeonTileSet.sks */; };
+		6737802575AE6A06E34EFF89 /* Pods_AppOfMapping.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 195F697572F2DDB960187837 /* Pods_AppOfMapping.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +128,87 @@
 		0A690E4A2768FC9F00078AC4 /* AppOfMappingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppOfMappingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A690E4E2768FC9F00078AC4 /* AppOfMappingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppOfMappingUITests.swift; sourceTree = "<group>"; };
 		0A690E502768FC9F00078AC4 /* AppOfMappingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppOfMappingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0A690E5E2768FDBD00078AC4 /* LabelTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelTableViewCell.swift; sourceTree = "<group>"; };
+		0A690E5F2768FDBD00078AC4 /* DoubleButtonCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoubleButtonCell.swift; sourceTree = "<group>"; };
+		0A690E602768FDBD00078AC4 /* StatsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatsTableViewCell.swift; sourceTree = "<group>"; };
+		0A690E612768FDBD00078AC4 /* TextViewTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextViewTableViewCell.swift; sourceTree = "<group>"; };
+		0A690E622768FDBD00078AC4 /* PickerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerTableViewCell.swift; sourceTree = "<group>"; };
+		0A690E632768FDBD00078AC4 /* TaperedLineTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaperedLineTableViewCell.swift; sourceTree = "<group>"; };
+		0A690E642768FDBD00078AC4 /* TextFieldTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldTableViewCell.swift; sourceTree = "<group>"; };
+		0A690E652768FDBD00078AC4 /* ButtonTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonTableViewCell.swift; sourceTree = "<group>"; };
+		0A690E662768FDBD00078AC4 /* SwitchTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwitchTableViewCell.swift; sourceTree = "<group>"; };
+		0A690E682768FDBD00078AC4 /* SRDMonsterDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SRDMonsterDataSource.swift; sourceTree = "<group>"; };
+		0A690E692768FDBD00078AC4 /* TrapDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrapDataSource.swift; sourceTree = "<group>"; };
+		0A690E6A2768FDBD00078AC4 /* EncounterDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EncounterDataSource.swift; sourceTree = "<group>"; };
+		0A690E6B2768FDBD00078AC4 /* PartyDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PartyDataSource.swift; sourceTree = "<group>"; };
+		0A690E6C2768FDBD00078AC4 /* RoomDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoomDataSource.swift; sourceTree = "<group>"; };
+		0A690E6D2768FDBD00078AC4 /* DNDBeyondDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DNDBeyondDataSource.swift; sourceTree = "<group>"; };
+		0A690E6E2768FDBD00078AC4 /* MonsterDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonsterDataSource.swift; sourceTree = "<group>"; };
+		0A690E6F2768FDBD00078AC4 /* SRDSpellDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SRDSpellDataSource.swift; sourceTree = "<group>"; };
+		0A690E702768FDBD00078AC4 /* GM5MonsterDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GM5MonsterDataSource.swift; sourceTree = "<group>"; };
+		0A690E722768FDBD00078AC4 /* room_words.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = room_words.txt; sourceTree = "<group>"; };
+		0A690E742768FDBD00078AC4 /* 5e_srd_spells.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 5e_srd_spells.json; sourceTree = "<group>"; };
+		0A690E752768FDBD00078AC4 /* dungeon_words.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dungeon_words.txt; sourceTree = "<group>"; };
+		0A690E762768FDBD00078AC4 /* kfc_master_monster_list.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = kfc_master_monster_list.json; sourceTree = "<group>"; };
+		0A690E772768FDBD00078AC4 /* noun_words.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = noun_words.txt; sourceTree = "<group>"; };
+		0A690E782768FDBD00078AC4 /* adjective_words.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = adjective_words.txt; sourceTree = "<group>"; };
+		0A690E792768FDBD00078AC4 /* 5e_srd_monsters.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 5e_srd_monsters.json; sourceTree = "<group>"; };
+		0A690E7B2768FDBD00078AC4 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		0A690E7C2768FDBD00078AC4 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		0A690E7E2768FDBD00078AC4 /* Trap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Trap.swift; sourceTree = "<group>"; };
+		0A690E802768FDBD00078AC4 /* PlayerCharacter+XPThreshhold.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PlayerCharacter+XPThreshhold.swift"; sourceTree = "<group>"; };
+		0A690E812768FDBD00078AC4 /* PlayerCharacter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerCharacter.swift; sourceTree = "<group>"; };
+		0A690E822768FDBD00078AC4 /* PlayerCharacter+AdventuringDay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PlayerCharacter+AdventuringDay.swift"; sourceTree = "<group>"; };
+		0A690E832768FDBD00078AC4 /* Class.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Class.swift; sourceTree = "<group>"; };
+		0A690E842768FDBD00078AC4 /* ClassDefinition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassDefinition.swift; sourceTree = "<group>"; };
+		0A690E852768FDBD00078AC4 /* Party.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Party.swift; sourceTree = "<group>"; };
+		0A690E872768FDBD00078AC4 /* MapGeometryObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapGeometryObject.swift; sourceTree = "<group>"; };
+		0A690E882768FDBD00078AC4 /* Room.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
+		0A690E892768FDBD00078AC4 /* DungeonMap+Description.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DungeonMap+Description.swift"; sourceTree = "<group>"; };
+		0A690E8A2768FDBD00078AC4 /* DungeonMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DungeonMap.swift; sourceTree = "<group>"; };
+		0A690E8B2768FDBD00078AC4 /* Leaf.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Leaf.swift; sourceTree = "<group>"; };
+		0A690E8C2768FDBD00078AC4 /* Door.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Door.swift; sourceTree = "<group>"; };
+		0A690E8E2768FDBD00078AC4 /* Encounter+AdjustedXP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Encounter+AdjustedXP.swift"; sourceTree = "<group>"; };
+		0A690E8F2768FDBD00078AC4 /* Encounter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Encounter.swift; sourceTree = "<group>"; };
+		0A690E902768FDBD00078AC4 /* EncounterEnemy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EncounterEnemy.swift; sourceTree = "<group>"; };
+		0A690E922768FDBD00078AC4 /* Treasure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Treasure.swift; sourceTree = "<group>"; };
+		0A690E932768FDBD00078AC4 /* Treasure+ArtObjects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Treasure+ArtObjects.swift"; sourceTree = "<group>"; };
+		0A690E942768FDBD00078AC4 /* Treasure+MagicItems.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Treasure+MagicItems.swift"; sourceTree = "<group>"; };
+		0A690E952768FDBD00078AC4 /* Spell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Spell.swift; sourceTree = "<group>"; };
+		0A690E972768FDBD00078AC4 /* Monster.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Monster.swift; sourceTree = "<group>"; };
+		0A690E982768FDBD00078AC4 /* MonsterGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonsterGroup.swift; sourceTree = "<group>"; };
+		0A690E992768FDBD00078AC4 /* SpecialAbility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpecialAbility.swift; sourceTree = "<group>"; };
+		0A690E9A2768FDBD00078AC4 /* Monster+ExperiencePoints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Monster+ExperiencePoints.swift"; sourceTree = "<group>"; };
+		0A690E9B2768FDBD00078AC4 /* Monster+AbilityModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Monster+AbilityModifier.swift"; sourceTree = "<group>"; };
+		0A690E9C2768FDBD00078AC4 /* Action.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Action.swift; sourceTree = "<group>"; };
+		0A690E9E2768FDBD00078AC4 /* UIColor+Hex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Hex.swift"; sourceTree = "<group>"; };
+		0A690E9F2768FDBD00078AC4 /* UIView+ScreenGrab.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+ScreenGrab.swift"; sourceTree = "<group>"; };
+		0A690EA02768FDBD00078AC4 /* UIImage+ToFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+ToFile.swift"; sourceTree = "<group>"; };
+		0A690EA12768FDBD00078AC4 /* UIViewController+DetailPresent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+DetailPresent.swift"; sourceTree = "<group>"; };
+		0A690EA22768FDBD00078AC4 /* CustomStringConvertible+Desc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CustomStringConvertible+Desc.swift"; sourceTree = "<group>"; };
+		0A690EA42768FDBD00078AC4 /* EnvironmentsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnvironmentsViewController.swift; sourceTree = "<group>"; };
+		0A690EA52768FDBD00078AC4 /* RoomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoomViewController.swift; sourceTree = "<group>"; };
+		0A690EA62768FDBD00078AC4 /* EditEnemyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditEnemyViewController.swift; sourceTree = "<group>"; };
+		0A690EA72768FDBD00078AC4 /* StatBlockViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatBlockViewController.swift; sourceTree = "<group>"; };
+		0A690EA82768FDBD00078AC4 /* PDFViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFViewController.swift; sourceTree = "<group>"; };
+		0A690EA92768FDBD00078AC4 /* AddEnemyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddEnemyViewController.swift; sourceTree = "<group>"; };
+		0A690EAA2768FDBD00078AC4 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		0A690EAB2768FDBD00078AC4 /* PlayerCharacterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerCharacterViewController.swift; sourceTree = "<group>"; };
+		0A690EAC2768FDBD00078AC4 /* GroupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupViewController.swift; sourceTree = "<group>"; };
+		0A690EAD2768FDBD00078AC4 /* PartyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PartyViewController.swift; sourceTree = "<group>"; };
+		0A690EAE2768FDBD00078AC4 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		0A690EAF2768FDBD00078AC4 /* CustomGroupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomGroupViewController.swift; sourceTree = "<group>"; };
+		0A690EB02768FDBD00078AC4 /* MapInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapInfoViewController.swift; sourceTree = "<group>"; };
+		0A690EB12768FDBD00078AC4 /* GroupsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupsViewController.swift; sourceTree = "<group>"; };
+		0A690EB22768FDBD00078AC4 /* EditStringViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditStringViewController.swift; sourceTree = "<group>"; };
+		0A690EB32768FDBD00078AC4 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		0A690EB52768FDBE00078AC4 /* Roll.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Roll.swift; sourceTree = "<group>"; };
+		0A690EB72768FDBE00078AC4 /* BSPDungeonNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSPDungeonNode.swift; sourceTree = "<group>"; };
+		0A690EB82768FDBE00078AC4 /* Dungeon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dungeon.swift; sourceTree = "<group>"; };
+		0A690EB92768FDBE00078AC4 /* DungeonTileSet.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = DungeonTileSet.sks; sourceTree = "<group>"; };
+		195F697572F2DDB960187837 /* Pods_AppOfMapping.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppOfMapping.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E633FD298B2C59D3BE389F0 /* Pods-AppOfMapping.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppOfMapping.debug.xcconfig"; path = "Target Support Files/Pods-AppOfMapping/Pods-AppOfMapping.debug.xcconfig"; sourceTree = "<group>"; };
+		89BB51E3EAE4C45BDFF00191 /* Pods-AppOfMapping.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppOfMapping.release.xcconfig"; path = "Target Support Files/Pods-AppOfMapping/Pods-AppOfMapping.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +216,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6737802575AE6A06E34EFF89 /* Pods_AppOfMapping.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +244,8 @@
 				0A690E432768FC9F00078AC4 /* AppOfMappingTests */,
 				0A690E4D2768FC9F00078AC4 /* AppOfMappingUITests */,
 				0A690E2B2768FC9C00078AC4 /* Products */,
+				244958CB59D4A6C8B4D16846 /* Pods */,
+				55A47AF9BBC0704641FAD8FC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +262,15 @@
 		0A690E2C2768FC9C00078AC4 /* AppOfMapping */ = {
 			isa = PBXGroup;
 			children = (
+				0A690E5D2768FDBD00078AC4 /* Cells */,
+				0A690E712768FDBD00078AC4 /* Data */,
+				0A690E672768FDBD00078AC4 /* DataSources */,
+				0A690E9D2768FDBD00078AC4 /* Extensions */,
+				0A690E7A2768FDBD00078AC4 /* Fonts */,
+				0A690EB42768FDBE00078AC4 /* Helpers */,
+				0A690E7D2768FDBD00078AC4 /* Models */,
+				0A690EB62768FDBE00078AC4 /* SpriteKit */,
+				0A690EA32768FDBD00078AC4 /* ViewControllers */,
 				0A690E2D2768FC9C00078AC4 /* AppDelegate.swift */,
 				0A690E2F2768FC9C00078AC4 /* SceneDelegate.swift */,
 				0A690E312768FC9C00078AC4 /* ViewController.swift */,
@@ -127,6 +299,204 @@
 			path = AppOfMappingUITests;
 			sourceTree = "<group>";
 		};
+		0A690E5D2768FDBD00078AC4 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				0A690E5E2768FDBD00078AC4 /* LabelTableViewCell.swift */,
+				0A690E5F2768FDBD00078AC4 /* DoubleButtonCell.swift */,
+				0A690E602768FDBD00078AC4 /* StatsTableViewCell.swift */,
+				0A690E612768FDBD00078AC4 /* TextViewTableViewCell.swift */,
+				0A690E622768FDBD00078AC4 /* PickerTableViewCell.swift */,
+				0A690E632768FDBD00078AC4 /* TaperedLineTableViewCell.swift */,
+				0A690E642768FDBD00078AC4 /* TextFieldTableViewCell.swift */,
+				0A690E652768FDBD00078AC4 /* ButtonTableViewCell.swift */,
+				0A690E662768FDBD00078AC4 /* SwitchTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		0A690E672768FDBD00078AC4 /* DataSources */ = {
+			isa = PBXGroup;
+			children = (
+				0A690E682768FDBD00078AC4 /* SRDMonsterDataSource.swift */,
+				0A690E692768FDBD00078AC4 /* TrapDataSource.swift */,
+				0A690E6A2768FDBD00078AC4 /* EncounterDataSource.swift */,
+				0A690E6B2768FDBD00078AC4 /* PartyDataSource.swift */,
+				0A690E6C2768FDBD00078AC4 /* RoomDataSource.swift */,
+				0A690E6D2768FDBD00078AC4 /* DNDBeyondDataSource.swift */,
+				0A690E6E2768FDBD00078AC4 /* MonsterDataSource.swift */,
+				0A690E6F2768FDBD00078AC4 /* SRDSpellDataSource.swift */,
+				0A690E702768FDBD00078AC4 /* GM5MonsterDataSource.swift */,
+			);
+			path = DataSources;
+			sourceTree = "<group>";
+		};
+		0A690E712768FDBD00078AC4 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				0A690E722768FDBD00078AC4 /* room_words.txt */,
+				0A690E742768FDBD00078AC4 /* 5e_srd_spells.json */,
+				0A690E752768FDBD00078AC4 /* dungeon_words.txt */,
+				0A690E762768FDBD00078AC4 /* kfc_master_monster_list.json */,
+				0A690E772768FDBD00078AC4 /* noun_words.txt */,
+				0A690E782768FDBD00078AC4 /* adjective_words.txt */,
+				0A690E792768FDBD00078AC4 /* 5e_srd_monsters.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		0A690E7A2768FDBD00078AC4 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				0A690E7B2768FDBD00078AC4 /* Poppins-Regular.ttf */,
+				0A690E7C2768FDBD00078AC4 /* Poppins-Bold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		0A690E7D2768FDBD00078AC4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0A690E7E2768FDBD00078AC4 /* Trap.swift */,
+				0A690E7F2768FDBD00078AC4 /* Character */,
+				0A690E852768FDBD00078AC4 /* Party.swift */,
+				0A690E862768FDBD00078AC4 /* Dungeon */,
+				0A690E8D2768FDBD00078AC4 /* Encounter */,
+				0A690E912768FDBD00078AC4 /* Treasure */,
+				0A690E952768FDBD00078AC4 /* Spell.swift */,
+				0A690E962768FDBD00078AC4 /* Monster */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0A690E7F2768FDBD00078AC4 /* Character */ = {
+			isa = PBXGroup;
+			children = (
+				0A690E802768FDBD00078AC4 /* PlayerCharacter+XPThreshhold.swift */,
+				0A690E812768FDBD00078AC4 /* PlayerCharacter.swift */,
+				0A690E822768FDBD00078AC4 /* PlayerCharacter+AdventuringDay.swift */,
+				0A690E832768FDBD00078AC4 /* Class.swift */,
+				0A690E842768FDBD00078AC4 /* ClassDefinition.swift */,
+			);
+			path = Character;
+			sourceTree = "<group>";
+		};
+		0A690E862768FDBD00078AC4 /* Dungeon */ = {
+			isa = PBXGroup;
+			children = (
+				0A690E872768FDBD00078AC4 /* MapGeometryObject.swift */,
+				0A690E882768FDBD00078AC4 /* Room.swift */,
+				0A690E892768FDBD00078AC4 /* DungeonMap+Description.swift */,
+				0A690E8A2768FDBD00078AC4 /* DungeonMap.swift */,
+				0A690E8B2768FDBD00078AC4 /* Leaf.swift */,
+				0A690E8C2768FDBD00078AC4 /* Door.swift */,
+			);
+			path = Dungeon;
+			sourceTree = "<group>";
+		};
+		0A690E8D2768FDBD00078AC4 /* Encounter */ = {
+			isa = PBXGroup;
+			children = (
+				0A690E8E2768FDBD00078AC4 /* Encounter+AdjustedXP.swift */,
+				0A690E8F2768FDBD00078AC4 /* Encounter.swift */,
+				0A690E902768FDBD00078AC4 /* EncounterEnemy.swift */,
+			);
+			path = Encounter;
+			sourceTree = "<group>";
+		};
+		0A690E912768FDBD00078AC4 /* Treasure */ = {
+			isa = PBXGroup;
+			children = (
+				0A690E922768FDBD00078AC4 /* Treasure.swift */,
+				0A690E932768FDBD00078AC4 /* Treasure+ArtObjects.swift */,
+				0A690E942768FDBD00078AC4 /* Treasure+MagicItems.swift */,
+			);
+			path = Treasure;
+			sourceTree = "<group>";
+		};
+		0A690E962768FDBD00078AC4 /* Monster */ = {
+			isa = PBXGroup;
+			children = (
+				0A690E972768FDBD00078AC4 /* Monster.swift */,
+				0A690E982768FDBD00078AC4 /* MonsterGroup.swift */,
+				0A690E992768FDBD00078AC4 /* SpecialAbility.swift */,
+				0A690E9A2768FDBD00078AC4 /* Monster+ExperiencePoints.swift */,
+				0A690E9B2768FDBD00078AC4 /* Monster+AbilityModifier.swift */,
+				0A690E9C2768FDBD00078AC4 /* Action.swift */,
+			);
+			path = Monster;
+			sourceTree = "<group>";
+		};
+		0A690E9D2768FDBD00078AC4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0A690E9E2768FDBD00078AC4 /* UIColor+Hex.swift */,
+				0A690E9F2768FDBD00078AC4 /* UIView+ScreenGrab.swift */,
+				0A690EA02768FDBD00078AC4 /* UIImage+ToFile.swift */,
+				0A690EA12768FDBD00078AC4 /* UIViewController+DetailPresent.swift */,
+				0A690EA22768FDBD00078AC4 /* CustomStringConvertible+Desc.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		0A690EA32768FDBD00078AC4 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0A690EA42768FDBD00078AC4 /* EnvironmentsViewController.swift */,
+				0A690EA52768FDBD00078AC4 /* RoomViewController.swift */,
+				0A690EA62768FDBD00078AC4 /* EditEnemyViewController.swift */,
+				0A690EA72768FDBD00078AC4 /* StatBlockViewController.swift */,
+				0A690EA82768FDBD00078AC4 /* PDFViewController.swift */,
+				0A690EA92768FDBD00078AC4 /* AddEnemyViewController.swift */,
+				0A690EAA2768FDBD00078AC4 /* GameViewController.swift */,
+				0A690EAB2768FDBD00078AC4 /* PlayerCharacterViewController.swift */,
+				0A690EAC2768FDBD00078AC4 /* GroupViewController.swift */,
+				0A690EAD2768FDBD00078AC4 /* PartyViewController.swift */,
+				0A690EAE2768FDBD00078AC4 /* WebViewController.swift */,
+				0A690EAF2768FDBD00078AC4 /* CustomGroupViewController.swift */,
+				0A690EB02768FDBD00078AC4 /* MapInfoViewController.swift */,
+				0A690EB12768FDBD00078AC4 /* GroupsViewController.swift */,
+				0A690EB22768FDBD00078AC4 /* EditStringViewController.swift */,
+				0A690EB32768FDBD00078AC4 /* SettingsViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		0A690EB42768FDBE00078AC4 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				0A690EB52768FDBE00078AC4 /* Roll.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		0A690EB62768FDBE00078AC4 /* SpriteKit */ = {
+			isa = PBXGroup;
+			children = (
+				0A690EB72768FDBE00078AC4 /* BSPDungeonNode.swift */,
+				0A690EB82768FDBE00078AC4 /* Dungeon.swift */,
+				0A690EB92768FDBE00078AC4 /* DungeonTileSet.sks */,
+			);
+			path = SpriteKit;
+			sourceTree = "<group>";
+		};
+		244958CB59D4A6C8B4D16846 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1E633FD298B2C59D3BE389F0 /* Pods-AppOfMapping.debug.xcconfig */,
+				89BB51E3EAE4C45BDFF00191 /* Pods-AppOfMapping.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		55A47AF9BBC0704641FAD8FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				195F697572F2DDB960187837 /* Pods_AppOfMapping.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +504,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0A690E542768FC9F00078AC4 /* Build configuration list for PBXNativeTarget "AppOfMapping" */;
 			buildPhases = (
+				1820E5FBC3ED1C3EBDCC1815 /* [CP] Check Pods Manifest.lock */,
 				0A690E262768FC9C00078AC4 /* Sources */,
 				0A690E272768FC9C00078AC4 /* Frameworks */,
 				0A690E282768FC9C00078AC4 /* Resources */,
+				62270BF57E79F6F2EEDEEBBE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,9 +603,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A690ED52768FDBE00078AC4 /* 5e_srd_monsters.json in Resources */,
 				0A690E3A2768FC9F00078AC4 /* LaunchScreen.storyboard in Resources */,
 				0A690E372768FC9F00078AC4 /* Assets.xcassets in Resources */,
+				0A690ED62768FDBE00078AC4 /* Poppins-Regular.ttf in Resources */,
+				0A690ED02768FDBE00078AC4 /* 5e_srd_spells.json in Resources */,
+				0A690F0A2768FDBE00078AC4 /* DungeonTileSet.sks in Resources */,
 				0A690E352768FC9C00078AC4 /* Main.storyboard in Resources */,
+				0A690ED42768FDBE00078AC4 /* adjective_words.txt in Resources */,
+				0A690ED12768FDBE00078AC4 /* dungeon_words.txt in Resources */,
+				0A690ED72768FDBE00078AC4 /* Poppins-Bold.ttf in Resources */,
+				0A690ED22768FDBE00078AC4 /* kfc_master_monster_list.json in Resources */,
+				0A690ECE2768FDBE00078AC4 /* room_words.txt in Resources */,
+				0A690ED32768FDBE00078AC4 /* noun_words.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,14 +635,124 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1820E5FBC3ED1C3EBDCC1815 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AppOfMapping-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		62270BF57E79F6F2EEDEEBBE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AppOfMapping/Pods-AppOfMapping-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AppOfMapping/Pods-AppOfMapping-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AppOfMapping/Pods-AppOfMapping-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0A690E262768FC9C00078AC4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A690EED2768FDBE00078AC4 /* MonsterGroup.swift in Sources */,
+				0A690F022768FDBE00078AC4 /* CustomGroupViewController.swift in Sources */,
+				0A690EC12768FDBE00078AC4 /* TaperedLineTableViewCell.swift in Sources */,
+				0A690EF92768FDBE00078AC4 /* EditEnemyViewController.swift in Sources */,
+				0A690EE62768FDBE00078AC4 /* Encounter.swift in Sources */,
+				0A690EC52768FDBE00078AC4 /* SRDMonsterDataSource.swift in Sources */,
+				0A690EDD2768FDBE00078AC4 /* ClassDefinition.swift in Sources */,
+				0A690EFA2768FDBE00078AC4 /* StatBlockViewController.swift in Sources */,
+				0A690ECD2768FDBE00078AC4 /* GM5MonsterDataSource.swift in Sources */,
+				0A690EC32768FDBE00078AC4 /* ButtonTableViewCell.swift in Sources */,
+				0A690ED92768FDBE00078AC4 /* PlayerCharacter+XPThreshhold.swift in Sources */,
+				0A690ECC2768FDBE00078AC4 /* SRDSpellDataSource.swift in Sources */,
+				0A690EF22768FDBE00078AC4 /* UIColor+Hex.swift in Sources */,
+				0A690EE92768FDBE00078AC4 /* Treasure+ArtObjects.swift in Sources */,
+				0A690F072768FDBE00078AC4 /* Roll.swift in Sources */,
+				0A690EBD2768FDBE00078AC4 /* DoubleButtonCell.swift in Sources */,
+				0A690EBE2768FDBE00078AC4 /* StatsTableViewCell.swift in Sources */,
 				0A690E322768FC9C00078AC4 /* ViewController.swift in Sources */,
+				0A690EEF2768FDBE00078AC4 /* Monster+ExperiencePoints.swift in Sources */,
+				0A690EDE2768FDBE00078AC4 /* Party.swift in Sources */,
+				0A690EC42768FDBE00078AC4 /* SwitchTableViewCell.swift in Sources */,
+				0A690EE52768FDBE00078AC4 /* Encounter+AdjustedXP.swift in Sources */,
+				0A690EC92768FDBE00078AC4 /* RoomDataSource.swift in Sources */,
+				0A690F052768FDBE00078AC4 /* EditStringViewController.swift in Sources */,
+				0A690ECB2768FDBE00078AC4 /* MonsterDataSource.swift in Sources */,
+				0A690EF42768FDBE00078AC4 /* UIImage+ToFile.swift in Sources */,
+				0A690F002768FDBE00078AC4 /* PartyViewController.swift in Sources */,
+				0A690F092768FDBE00078AC4 /* Dungeon.swift in Sources */,
+				0A690EFD2768FDBE00078AC4 /* GameViewController.swift in Sources */,
+				0A690EE72768FDBE00078AC4 /* EncounterEnemy.swift in Sources */,
+				0A690EE02768FDBE00078AC4 /* Room.swift in Sources */,
+				0A690EE32768FDBE00078AC4 /* Leaf.swift in Sources */,
+				0A690EF72768FDBE00078AC4 /* EnvironmentsViewController.swift in Sources */,
+				0A690ECA2768FDBE00078AC4 /* DNDBeyondDataSource.swift in Sources */,
+				0A690EEA2768FDBE00078AC4 /* Treasure+MagicItems.swift in Sources */,
+				0A690EFC2768FDBE00078AC4 /* AddEnemyViewController.swift in Sources */,
+				0A690ED82768FDBE00078AC4 /* Trap.swift in Sources */,
+				0A690EC72768FDBE00078AC4 /* EncounterDataSource.swift in Sources */,
+				0A690EE82768FDBE00078AC4 /* Treasure.swift in Sources */,
+				0A690EE42768FDBE00078AC4 /* Door.swift in Sources */,
+				0A690EEB2768FDBE00078AC4 /* Spell.swift in Sources */,
+				0A690F042768FDBE00078AC4 /* GroupsViewController.swift in Sources */,
+				0A690EDB2768FDBE00078AC4 /* PlayerCharacter+AdventuringDay.swift in Sources */,
+				0A690EDF2768FDBE00078AC4 /* MapGeometryObject.swift in Sources */,
+				0A690EE12768FDBE00078AC4 /* DungeonMap+Description.swift in Sources */,
+				0A690F032768FDBE00078AC4 /* MapInfoViewController.swift in Sources */,
+				0A690EC62768FDBE00078AC4 /* TrapDataSource.swift in Sources */,
+				0A690F082768FDBE00078AC4 /* BSPDungeonNode.swift in Sources */,
 				0A690E2E2768FC9C00078AC4 /* AppDelegate.swift in Sources */,
+				0A690EFB2768FDBE00078AC4 /* PDFViewController.swift in Sources */,
+				0A690EBC2768FDBE00078AC4 /* LabelTableViewCell.swift in Sources */,
+				0A690EDA2768FDBE00078AC4 /* PlayerCharacter.swift in Sources */,
+				0A690EF62768FDBE00078AC4 /* CustomStringConvertible+Desc.swift in Sources */,
+				0A690F012768FDBE00078AC4 /* WebViewController.swift in Sources */,
+				0A690EEC2768FDBE00078AC4 /* Monster.swift in Sources */,
+				0A690EF12768FDBE00078AC4 /* Action.swift in Sources */,
+				0A690EFF2768FDBE00078AC4 /* GroupViewController.swift in Sources */,
+				0A690EFE2768FDBE00078AC4 /* PlayerCharacterViewController.swift in Sources */,
+				0A690EE22768FDBE00078AC4 /* DungeonMap.swift in Sources */,
+				0A690EC82768FDBE00078AC4 /* PartyDataSource.swift in Sources */,
+				0A690EEE2768FDBE00078AC4 /* SpecialAbility.swift in Sources */,
+				0A690EC02768FDBE00078AC4 /* PickerTableViewCell.swift in Sources */,
+				0A690EDC2768FDBE00078AC4 /* Class.swift in Sources */,
+				0A690EF02768FDBE00078AC4 /* Monster+AbilityModifier.swift in Sources */,
+				0A690EF32768FDBE00078AC4 /* UIView+ScreenGrab.swift in Sources */,
+				0A690EF52768FDBE00078AC4 /* UIViewController+DetailPresent.swift in Sources */,
+				0A690F062768FDBE00078AC4 /* SettingsViewController.swift in Sources */,
+				0A690EBF2768FDBE00078AC4 /* TextViewTableViewCell.swift in Sources */,
+				0A690EF82768FDBE00078AC4 /* RoomViewController.swift in Sources */,
 				0A690E302768FC9C00078AC4 /* SceneDelegate.swift in Sources */,
+				0A690EC22768FDBE00078AC4 /* TextFieldTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +926,7 @@
 		};
 		0A690E552768FC9F00078AC4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E633FD298B2C59D3BE389F0 /* Pods-AppOfMapping.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -462,6 +955,7 @@
 		};
 		0A690E562768FC9F00078AC4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89BB51E3EAE4C45BDFF00191 /* Pods-AppOfMapping.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
